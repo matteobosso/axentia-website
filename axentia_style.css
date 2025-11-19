@@ -1,0 +1,211 @@
+/* ==========================
+   FONT & BASE SETTINGS
+   ========================== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ==========================
+   GRADIENT & ACCENT
+   ========================== */
+.gradient-text {
+  background: linear-gradient(90deg, #6a00ff, #0077ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==========================
+   HERO SECTION
+   ========================== */
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.hero .logo {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.hero-desc {
+  max-width: 600px;
+  margin: 20px auto;
+  opacity: 0.8;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #6a00ff, #0077ff);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* ==========================
+   SECTION DEFAULTS
+   ========================== */
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* ==========================
+   VISION
+   ========================== */
+.vision-text {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.vision-quote {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* ==========================
+   METHOD
+   ========================== */
+.method-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.step {
+  background: #fff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  text-align: center;
+}
+
+.step-number {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #6a00ff, #0077ff);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* ==========================
+   CASES / AUTOMAZIONI
+   ========================== */
+.case-group {
+  margin-bottom: 60px;
+}
+
+.case-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 26px rgba(0,0,0,0.08);
+}
+
+/* ==========================
+   FUTURE
+   ========================== */
+.future {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.future p {
+  opacity: 0.85;
+  margin-top: 15px;
+}
+
+/* ==========================
+   CONTACTS
+   ========================== */
+.contact {
+  background: #fafafa;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact-mail {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* ==========================
+   RESPONSIVE
+   ========================== */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
